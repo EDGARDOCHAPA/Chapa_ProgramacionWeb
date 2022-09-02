@@ -26,18 +26,21 @@ Otro hobbie que tengo es el de jugar fútbol, aunque no sea el mejor jugando yo 
 
 |FUTBOL (POSICIONES)|          
 ----------------------------
-+ Mediocampista Defensivo
-+ Pivote
-+ Media Punta
-+ Portero
-+ Defensa Izquierdo
+..
+1. Mediocampista Defensivo
+2. Pivote
+3. Media Punta
+4. Portero
+5. Defensa Izquierdo
 
 |VIDEOJUEGOS (GÉNERO)|
 ----------------------
-+ Terror Psicológico
++ Terror Psicológico    
 + Aventura
 + Acción
 + Fantasía
++ Shooters
++ Mundo Abierto
 + Deporte
 
 |BANDA DE GUERRA (FUNCIONES)|
