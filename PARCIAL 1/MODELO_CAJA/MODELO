@@ -1,0 +1,4 @@
+# MODELO CAJA EN HTML  
+
+Los modelos de caja se marcan con ***<div>*** en formato HTML, y estas debn tener *alto, ancho, relleno, borde y margenes*. Estas cajas son rectangulos grandes que contienen toda la información.  
+Estos se conforman por *filo de contenido. área de relleno, área de borde y de área de margen; el área del margen afecta la interacción de la caja con los demás componentes del código. Un dato es que el margin ***solo posee un color transparente***
