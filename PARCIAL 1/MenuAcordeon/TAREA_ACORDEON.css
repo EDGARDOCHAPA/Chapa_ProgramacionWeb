@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    width: 200px;
+    height: 500px;
+
+}
+
+ul>li>ul{
+    display: none;
+}
+
+ul>li:target>ul{
+    display: block;
+    height: 100px;
+}
+
+.caja{
+    border: 2px;
+    margin: 2px;
+    color: black;
+}
