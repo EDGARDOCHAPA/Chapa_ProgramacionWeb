@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="MODAL.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="modal-container hidden">
+      <div class="modal-content">
+        <h1>Estamos trabjando en esto por el momento, intentelo dentro de un tiempo.</h1>
+        <button class="btnExitModal">Salir</button>
+      </div>
+    </div>
+    <header class="header">
+      <div class="tittle"><h1>2° GUERRA MUNDIAL</h1></div>
+      <div class="card-container">
+        <div class="card-tittle">
+          <h1>Inicio de la Guerra.</h1>
+          <a href="#PrimeraBox" class="enlace"><i class="bx bx-plus"></i></a>
+        </div>
+        <div class="card-body hidden" id="PrimeraBox">
+          Es el mayor conflicto bélico de toda la historia de la humanidad, dejando un alredeor de 
+            millones de muertes. Todo se dio debido a la redacción injusta del Tratado del Versalles.
+          <a href="https://www.youtube.com/watch?v=sRi0bCjnMFs">Ver más información.</a>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-tittle">
+          <h1>Escuadrón 201.</h1>
+        <a href="#SegundaBox" class="enlace"
+            ><i class="bx bx-plus"></i>
+        </a>
+        </div>
+        <div class="card-body hidden" id="SegundaBox">
+            El Escuadrón Aéreo de Pelea 201 o Escuadrón 201, es una unidad mexicana de combate aéreo 
+            que participó en la encuadrada dentro de la Fuerza Aérea Expedicionaria Mexicana.
+            <a href="https://www.youtube.com/watch?v=Ien9kbcv2V0">Ver más información.</a>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-tittle">
+          <h1>Tratado de París.</h1>
+          <a href="#TerceraBox" class="enlace"><i class="bx bx-plus"></i></a>
+        </div>
+        <div class="card-body hidden" id="TerceraBox">
+          El Tratado fue realizado en París, Francia; para poder darle asi fin a la segunda guerra mundial.
+          En el cual se le ponía condiciones a los perdedores de la guerra.
+          <a href="https://www.youtube.com/watch?v=Sh0mGok25O8">Ver más información.</a>
+        </div>
+      </div>
+      <button class="btnModal">Click para mostrar Modal</button>
+    </header>
+    <script src="MODAL.js"></script>
+  </body>
+</html>

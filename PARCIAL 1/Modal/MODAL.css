@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.header{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0px;
+}
+
+.tittle{
+    font-weight: bold;
+}
+
+.card-container{
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 90%;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-tittle{
+    border-bottom: 2px solid rgba(193, 193, 193, 0.322);
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hidden{
+    display: none;
+}
+
+.bx.bx-plus{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.card-body{
+    padding-top: 20px;
+}
+
+
+#PrimeraBox:target{
+    display: block;
+}
+
+#SegundaBox:target{
+    display: block;
+}
+#TerceraBox:target{
+    display: block;
+}
+
+.btnModal{
+  border:rgba(100, 100, 111, 0.2);
+  padding: 10px 20px ;
+  background-color: red;
+  color: white;
+  border-radius: 40px;
+}
+
+.modal-container{
+    height: 110vh;
+    z-index: 3;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+  background: rgba(185, 27, 27, 0.258);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11.5px );
+  -webkit-backdrop-filter: blur( 11.5px );
+  border-radius: 10px;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: black;
+}
+
+.btnSModal{
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 40px;
+}
+
+.hidden{
+    display:none ;
+}
