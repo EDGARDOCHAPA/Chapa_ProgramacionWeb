@@ -20,7 +20,7 @@
     grid-template-rows: 30%, 40%, 30%;
     grid-template-areas: 'menulat enca enca'
                         'menulat col1 col2'
-                        'menulat pie col3'; 
+                        'menulat col3 pie'; 
 
     justify-content: stretch;
     align-items: stretch;
