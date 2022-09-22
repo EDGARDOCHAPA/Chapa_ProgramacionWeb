@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+
+    display: grid;
+    grid-template-columns: 40%, 20%, 40%;
+    grid-template-rows: 30%, 30%, 40%,;
+    grid-template-areas:    'caja1 caja2 caja3'
+                            'caja4 caja5 caja6'
+                            'caja7 caja8 caja9';
+
+    justify-content: center;
+    align-content: center;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.caja{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid red;
+}
+
+#caja1{grid-area: caja1;}
+#caja2{grid-area: caja2;}
+#caja3{grid-area: caja3;}
+#caja4{grid-area: caja4;}
+#caja5{grid-area: caja5;}
+#caja6{grid-area: caja6;}
+#caja7{grid-area: caja7;}
+#caja8{grid-area: caja8;}
+#caja9{grid-area: caja9;}
